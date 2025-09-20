@@ -1,4 +1,9 @@
-# Un-Coded - Complete Set
+
+# Un-Coded: A Software Development MTG Parody Set
+
+Welcome to **Un-Coded**, a whimsical, tongue-in-cheek *Magic: The Gathering* set inspired by the world of software development! Drawing on the spirit of the classic Un-sets, Un-Coded reimagines the coding life — its chaos, creativity, and caffeine-fueled camaraderie—through clever mechanics and hilarious card designs. Whether you’re a developer, a gamer, or just love a good in-joke, this set is packed with references, puns, and playful twists on both programming and MTG traditions.
+
+Below you'll find a list of cards, mechanics, and tokens that bring the drama of the dev cycle to the battlefield. Ship code, squash bugs, and maybe — just maybe — win by deploying bug-free code!
 
 ## General Information
 
@@ -36,8 +41,8 @@ Senior Software Developer's power is equal to the number of bug-free Code tokens
 
 {2}{W}  
 Creature — Human Adept  
-{1}, {T}: Remove a bug counter from target Code token. Junior Software Developer doesn't untap during your next untap step.  
 {1}: Create a Spaghetti Code token. Then flip a coin. If you win the flip, remove all bug counters from it (miraculously clean!).  
+{1}, {T}: Remove a bug counter from target Code token. Junior Software Developer doesn't untap during your next untap step.  
 *"It compiles, ship it!"*  
 2/2
 
