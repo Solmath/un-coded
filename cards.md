@@ -434,7 +434,7 @@ Equip {1}
 ### Code Golf Tournament
 {3}{U}  
 Sorcery  
-Each player builds a 10-card mini-deck from cards in their library. Players then play a subgame with these decks. The winner creates three Clean Code tokens.  
+Each player looks at the top 15 cards of their library and builds a 10-card mini-deck from those cards. Players then play a subgame with these decks. The winner creates three Clean Code tokens.
 *"Shortest solution wins. Readability is for losers."*
 
 ### Hackathon
