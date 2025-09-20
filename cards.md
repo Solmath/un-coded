@@ -36,6 +36,7 @@ Senior Software Developer's power is equal to the number of bug-free Code tokens
 ### Junior Software Developer
 {2}{W}  
 Creature — Human Adept  
+{1}, {T}: Remove a bug counter from target Code token. Junior Software Developer doesn't untap during your next untap step.  
 {1}: Create a Spaghetti Code token. Then flip a coin. If you win the flip, remove all bug counters from it (miraculously clean!).  
 *"It compiles, ship it!"*  
 2/2
@@ -189,7 +190,7 @@ Token Artifact — Code
 Enters the battlefield with 2 bug counters.  
 Bug counters can't be removed from Legacy Code.  
 If you control no Developers, sacrifice it.  
-*"Written before your time. Maintained against your will."*
+*"Written before your time. Written against your will."*
 
 ### Test Code
 Token Artifact — Code  
@@ -217,7 +218,7 @@ At the beginning of your next upkeep, put two bug counters on Hotfix.
 ### Agile Sprint
 {1}{G}  
 Instant  
-Untap up to two Developers you control. They may each create a Code token this turn as though they had haste.  
+Untap up to two Developers you control. They may each activate abilities that create Code tokens this turn without tapping.  
 Draw a card.  
 *"We'll totally fix it next sprint."*
 
@@ -258,7 +259,7 @@ Enchanted Developer gets +1/+1.
 ### "Works on My Machine"
 {1}{U}  
 Instant  
-Counter target spell unless its controller can demonstrate it working on their phone.  
+Counter target spell unless its controller can physically demonstrate performing the action described in that spell's name using only objects currently at the table.  
 *"Have you tried turning it off and on again?"*
 
 ### Crunch Time
@@ -282,16 +283,18 @@ Destroy all bug-free Code tokens. Put a 6/6 black Horror creature token named "A
 ### Merge Conflict
 {2}{R}  
 Sorcery  
-Each player chooses a Code token they control. Those players must physically negotiate for 30 seconds. Players who reach an agreement may each create a Clean Code token.  
+Each player chooses a Code token they control. Those players must negotiate for 30 seconds about whose version is better and why. Players whose arguments are deemed acceptable by the other players may each create a Clean Code token.  
 *"Git blame everyone."*
 
 ### Memory Leak
 {3}{U}{U}  
 Enchantment  
-All spells cost {1} more to cast.  
-At the beginning of each player's upkeep, all spells cost {1} more to cast until end of turn.  
-{5}: Destroy Memory Leak.  
-*"Why is everything so slow?"*
+Memory Leak enters the battlefield with a leak counter on it.  
+All spells cost {1} more to cast for each leak counter on Memory Leak.  
+At the beginning of each player's upkeep, put a leak counter on Memory Leak.  
+If Memory Leak has 6 or more leak counters on it, all players lose the game.  
+Any player may pay {2} and tap an untapped Developer they control: Remove a leak counter from Memory Leak.  
+*"Why is everything so slow? And why are we all doomed?"*
 
 ### Rubber Duck Debugging
 {1}{U}  
@@ -371,7 +374,7 @@ Legendary Planeswalker — Grace
 Legendary Artifact  
 Code tokens you control have hexproof.  
 {3}: Create a Code token.  
-Whenever you would lose the game, if you control 10 or more bug-free Code tokens, instead you win the game.  
+If you would lose the game for any reason other than having 0 or less life, instead exile The Cloud and you don't lose the game.  
 *"All our problems are solved now that it's in The Cloud."*
 
 ### Continuous Integration Pipeline
@@ -419,7 +422,8 @@ Each player builds a 10-card mini-deck from cards in their library. Players then
 ### Hackathon
 {2}{R}{R}  
 Enchantment  
-Players have 60 seconds to rearrange the nonland cards in their hand. After time expires, each player draws cards equal to the number of different card types among cards in their hand.  
+When Hackathon enters the battlefield, each player may exchange any number of cards from their hand with cards from other players' hands (all exchanges must be agreed upon by both players).  
+Players have double the normal hand size limit while Hackathon is in play.  
 At the beginning of your upkeep, sacrifice Hackathon.  
 *"Red Bull and regret."*
 
