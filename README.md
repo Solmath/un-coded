@@ -28,19 +28,20 @@ Each color (and artifacts) has a distinct "take" on the coding theme:
 ### Senior Software Developer
 
 {3}{U}  
-Creature — Human Wizard  
+Creature — Human Developer  
 Affinity for Code (This spell costs {1} less to cast for each bug-free Code token you control.)  
 Senior Software Developer's power is equal to the number of bug-free Code tokens you control.  
 {1}: Create a Code token.  
-{X}, {T}: Fix X bugs among Code tokens you control. (Remove up to X bug counters from those tokens.)  
-**Ship It** — At the beginning of your upkeep, if you control ten or more bug-free Code tokens, you win the game.  
+{X}, {T}: Fix X bugs among Code tokens you control. (Remove up to X bug counters from those tokens.) 
 *"It worked on my machine."*  
 */3
+
+![Senior Software Developer](Senior%20Software%20Developer.png)
 
 ### Junior Software Developer
 
 {2}{W}  
-Creature — Human Adept  
+Creature — Human Developer  
 {1}: Create a Spaghetti Code token. Then flip a coin. If you win the flip, remove all bug counters from it (miraculously clean!).  
 {1}, {T}: Remove a bug counter from target Code token. Junior Software Developer doesn't untap during your next untap step.  
 *"It compiles, ship it!"*  
@@ -49,7 +50,7 @@ Creature — Human Adept
 ### Software Tester
 
 {2}{R}  
-Creature — Goblin Tinkerer  
+Creature — Goblin Tester  
 {T}: Put a bug counter on target Code token an opponent controls.  
 {2}{R}, {T}: Put two bug counters on target Code token.  
 *"If I can't break it, it's not software."*  
@@ -67,7 +68,7 @@ At the beginning of your upkeep, you may untap one Developer you control.
 ### Intern
 
 {W}  
-Creature — Human Intern  
+Creature — Human Developer  
 {T}: Create a Copy-Pasted Code token. It enters the battlefield with an additional bug counter.  
 When Intern leaves the company (dies), you may remove all bug counters from one Code token (because someone finally rewrites their work).  
 *"Don't worry, I Googled it."*  
@@ -172,7 +173,7 @@ Artifact
 ### Code Token
 
 Token Artifact — Code  
-At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"Compiles successfully. Probably."*
 
 ### Clean Code
@@ -180,7 +181,7 @@ At the beginning of your upkeep, if you control ten or more Code tokens without 
 Token Artifact — Code  
 Enters the battlefield with no bug counters.  
 If Clean Code would receive a bug counter, prevent that counter unless it comes from an opponent's source.  
-At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"Readable, testable, elegant — the stuff of legends."*
 
 ### Spaghetti Code
@@ -188,7 +189,7 @@ At the beginning of your upkeep, if you control ten or more Code tokens without 
 Token Artifact — Code  
 Enters the battlefield with 1 bug counter.  
 Whenever you try to remove a bug counter from Spaghetti Code, flip a coin. If you lose, put another bug counter on it instead.  
-At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"Don't touch it. No one remembers how it works."*
 
 ### Copy-Pasted Code
@@ -196,7 +197,7 @@ At the beginning of your upkeep, if you control ten or more Code tokens without 
 Token Artifact — Code  
 When this enters the battlefield, create a duplicate of another Code token you control, including its bug counters.  
 If the copied Code token is destroyed, sacrifice Copy-Pasted Code.  
-At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"Stack Overflow approves."*
 
 ### Over-Engineered Code
@@ -204,7 +205,7 @@ At the beginning of your upkeep, if you control ten or more Code tokens without 
 Token Artifact — Code  
 Counts as two Code tokens for the purpose of Affinity for Code and Ship It, as long as it has no bug counters.  
 If it ever has two or more bug counters, sacrifice it.  
-At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"It uses four frameworks, seven design patterns, and zero common sense."*
 
 ### Legacy Code
@@ -213,6 +214,7 @@ Token Artifact — Code
 Enters the battlefield with 2 bug counters.  
 Bug counters can't be removed from Legacy Code.  
 If you control no Developers, sacrifice it.  
+**Ship It** - At the beginning of your upkeep, if you control ten or more Code tokens without a bug, you win the game.  
 *"Written before your time. Written against your will."*
 
 ### Test Code
@@ -233,8 +235,7 @@ Code tokens adjacent to Documentation have "{T}: Remove a bug counter from this 
 
 Token Artifact — Code  
 Flash  
-When Hotfix enters the battlefield, remove a bug counter from target Code token.  
-At the beginning of your next upkeep, put two bug counters on Hotfix.  
+When Hotfix enters the battlefield, remove a bug counter from target Code token. At the beginning of your next end step, put two bug counters on Hotfix.  
 *"Quick patch before the weekend!"*
 
 ## Spells/Enchantments
