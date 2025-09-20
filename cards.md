@@ -296,6 +296,24 @@ If Memory Leak has 6 or more leak counters on it, all players lose the game.
 Any player may pay {2} and tap an untapped Developer they control: Remove a leak counter from Memory Leak.  
 *"Why is everything so slow? And why are we all doomed?"*
 
+### Spaghetti Code Cascade
+{2}{R}  
+Sorcery  
+Create three Spaghetti Code tokens. If you control five or more Code tokens with bug counters, put Memory Leak onto the battlefield.  
+*"One small change broke... everything."*
+
+### Legacy System Update
+{3}{B}  
+Sorcery  
+Each player puts a bug counter on each Code token they control. If any player controls three or more Code tokens with bug counters, put Memory Leak onto the battlefield.  
+*"We're upgrading the mainframe. What could go wrong?"*
+
+### Rushed Deployment
+{1}{R}{R}  
+Instant  
+Create two Code tokens. Put two bug counters on each of them. If this creates your fifth or more Code token this turn, put Memory Leak onto the battlefield.  
+*"Ship it Friday, fix it Monday."*
+
 ### Rubber Duck Debugging
 {1}{U}  
 Instant  
